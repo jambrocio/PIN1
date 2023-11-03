@@ -26,7 +26,7 @@ pipeline {
       steps{
           sh '''
           docker login -u admin -p virgo1984 192.168.94.139:8082
-          docker push 192.168.42.131:8082/holamundo:latest
+          docker push 192.168.94.139:8082/testapp
              '''  
         }
     }
